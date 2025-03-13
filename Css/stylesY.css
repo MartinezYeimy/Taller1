@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #d86d6d;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #dd6060;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    display: block;
+}
+
+article img {
+    width: 250px; 
+    height: 250px;
+    border-radius: 5px;
+}
+article button {
+    background-color: #d86d6d;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+article {
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1rem;
+    transition: transform 0.3s;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.article-content {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    flex: 1;
+}
+.info {
+    display: flex;
+    flex-direction: column;
+}
+article button {
+    background-color: #d86d6d;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+section#bebidas-calientes {
+    background-color: #ffe5b4;
+    padding: 1rem;
+    border-radius: 8px;
+}
+section#bebidas-frias {
+    background-color: #40E0D0;
+    padding: 1rem;
+    border-radius: 8px;
+}
+section#cocteles {
+    background-color: #D3D3D3;;
+    padding: 1rem;
+    border-radius: 8px;
+}
+section#postres {
+    background-color: #298a72; 
+    padding: 1rem;
+    border-radius: 8px;
+}
+section#snacks {
+    background-color: #5c445b;
+    padding: 1rem;
+    border-radius: 8px;
+}
+main {
+    padding: 2rem;
+}
+section {
+    margin-bottom: 2rem;
+}
+article:hover {
+    transform: scale(1.05);
+}
