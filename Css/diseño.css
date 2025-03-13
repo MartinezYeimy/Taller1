@@ -1,0 +1,47 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.headerBody{
+    text-align: center;
+    color: #fdffcb;
+    height: 20px;
+    background-color: #540001;
+}
+
+body{
+    background-color:#7b0002;
+}
+
+
+.eyelashes-body{
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px; 
+    text-decoration: none;
+    color: unset
+}
+
+h1{
+    font-weight: 500;
+    font-size: 60px;
+    color: #fce6a4;
+    text-shadow: 2px 2px 4px #7b7564;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;    
+}
+
+
+footer{
+    background-color: #540001;
+    color: #fce6a4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    flex-direction: column;
+}
