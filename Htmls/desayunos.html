@@ -7,6 +7,7 @@
 
     <link rel="shortcut icon" href="../Sources/letra-r.png">
     <link rel="stylesheet" href="../Css/diseño.css">
+    <link rel="stylesheet" href="../Css/styles.css">
 </head>
 <body>
     <div class="headerBody">
@@ -20,12 +21,115 @@
     
     <h1>Desayunos</h1>
 
+    <nav>
+        <ul>
+            <li><a href="#caldos">Caldos</a></li>
+            <li><a href="#huevos">Huevos</a></li>
+            <li><a href="#acompanamientos">Acompañamientos</a></li>
+        </ul>
+    </nav>
+
     <main>
+
+           
+        <!--Caldos-->
+
+        <section id="caldos">
+            <h2>Caldos</h2>
+            <article>
+                <div class="article-content">
+                    <img src="../Sources/caldo-costilla.jpg" alt="Caldo de Costilla">
+                    <div class="info">  
+                        <h3>Caldo de Costilla</h3>
+                        <p><strong>Precio:</strong> $20.000</p>
+                        <label for="cantidad-caldo-1">Cantidad:</label>
+                        <input type="number" id="cantidad-caldo-1" name="cantidad-caldo-1" min="1" value="1">
+                        <button>Comprar</button>
+                    </div>
+                </div>
+            </article>
+
+            <article>
+                <div class="article-content">
+                    <img src="../Sources/caldo-pollo.jpg" alt="Caldo de Pollo">
+                    <div class="info">
+                        <h3>Caldo de Pollo</h3>
+                        <p><strong>Precio:</strong> $18.000</p>
+                        <label for="cantidad-caldo-2">Cantidad:</label>
+                        <input type="number" id="cantidad-caldo-2" name="cantidad-caldo-2" min="1" value="1">
+                        <button>Comprar</button>
+                    </div>
+                </div>
+            </article>
+        </section>
+
+        <!--Huevos-->
+
+        <section id="huevos">
+            <h2>Huevos</h2>
+            <article>
+                <div class="article-content">
+                    <img src="../Sources/huevos-revueltos.jpg" alt="Huevos Revueltos">
+                    <div class="info">  
+                        <h3>Huevos Revueltos</h3>
+                        <p><strong>Precio:</strong> $12.000</p>
+                        <label for="cantidad-huevos-1">Cantidad:</label>
+                        <input type="number" id="cantidad-huevos-1" name="cantidad-huevos-1" min="1" value="1">
+                        <button>Comprar</button>
+                    </div>
+                </div>
+            </article>
+            <article>
+                <div class="article-content">
+                    <img src="../Sources/huevos-pericos.jpg" alt="Huevos Pericos">
+                    <div class="info">
+                        <h3>Huevos Pericos</h3>
+                        <p><strong>Precio:</strong> $14.000</p>
+                        <label for="cantidad-huevos-2">Cantidad:</label>
+                        <input type="number" id="cantidad-huevos-2" name="cantidad-huevos-2" min="1" value="1">
+                        <button>Comprar</button>
+                    </div>
+                </div>
+            </article>
+        </section>
+
+        <!--Acompañamientos-->
+
+        <section id="acompanamientos">
+            <h2>Acompañamientos</h2>
+            <article>
+                <div class="article-content">
+                    <img src="../Sources/pan.jpg" alt="Pan">
+                    <div class="info">  
+                        <h3>Pan</h3>
+                        <p><strong>Precio:</strong> $3.000</p>
+                        <label for="cantidad-pan">Cantidad:</label>
+                        <input type="number" id="cantidad-pan" name="cantidad-pan" min="1" value="1">
+                        <button>Comprar</button>
+                    </div>
+                </div>
+            </article>
+
+            <article>
+                <div class="article-content">
+                    <img src="../Sources/arepa.jpg" alt="Arepa">
+                    <div class="info">  
+                        <h3>Arepa</h3>
+                        <p><strong>Precio:</strong> $5.000</p>
+                        <label for="cantidad-arepa">Cantidad:</label>
+                        <input type="number" id="cantidad-arepa" name="cantidad-arepa" min="1" value="1">
+                        <button>Comprar</button>
+                    </div>
+                </div>
+            </article>
+        </section>
 
     </main>
 
+   
     <footer>
         <p>&Copf; Sebastian Alba, Yeimy Martínez & Cristian Martínez. 2025</p>
     </footer>
+    
 </body>
 </html>
