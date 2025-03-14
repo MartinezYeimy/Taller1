@@ -46,14 +46,22 @@ h2{
     justify-content: center;   
 }
 
-p{
-    font-weight: 500;
-    font-size: 20px;
-    color: #fce6a4;
-    margin: 20px;
+.info{
+    font-size: 15px;
+    color: #fbb675;
+    margin: 1px;
     text-shadow: 2px 2px 4px #7b7564;
-    margin-top: 20px;
-    display: flex;
+    display:flex;
+    justify-content:baseline;   
+    align-items: center;
+}
+
+p{
+    font-size: 15px;
+    color: #facd46;
+    margin: 5px;
+    text-shadow: 2px 2px 4px #7b7564;
+    display:flex;
     justify-content: center;   
     align-items: center;
 }
