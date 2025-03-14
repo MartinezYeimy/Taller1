@@ -1,12 +1,12 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #7b0002;
     margin: 0;
     padding: 0;
 }
 header {
-    background-color: #d86d6d;
-    color: #fff;
+    background-color: #540001;
+    color: #ffffff;
     padding: 1rem;
     text-align: center;
 }
@@ -15,13 +15,15 @@ nav ul {
     padding: 0;
     display: flex;
     justify-content: center;
-    background-color: #dd6060;
+    background-color: #540001;
+    
 }
 nav ul li a {
     color: #fff;
     text-decoration: none;
     padding: 0.5rem 1rem;
     display: block;
+    
 }
 
 article img {
@@ -30,7 +32,7 @@ article img {
     border-radius: 5px;
 }
 article button {
-    background-color: #d86d6d;
+    background-color: #540001;
     color: white;
     border: none;
     padding: 8px 12px;
@@ -58,36 +60,29 @@ article {
     display: flex;
     flex-direction: column;
 }
-article button {
-    background-color: #d86d6d;
-    color: white;
-    border: none;
-    padding: 8px 12px;
-    cursor: pointer;
-    border-radius: 5px;
-}
+
 section#bebidas-calientes {
-    background-color: #ffe5b4;
+    background-color: #540001;
     padding: 1rem;
     border-radius: 8px;
 }
 section#bebidas-frias {
-    background-color: #40E0D0;
+    background-color: #540001;
     padding: 1rem;
     border-radius: 8px;
 }
 section#cocteles {
-    background-color: #D3D3D3;;
+    background-color: #540001;
     padding: 1rem;
     border-radius: 8px;
 }
 section#postres {
-    background-color: #298a72; 
+    background-color: #540001; 
     padding: 1rem;
     border-radius: 8px;
 }
 section#snacks {
-    background-color: #5c445b;
+    background-color: #540001;
     padding: 1rem;
     border-radius: 8px;
 }
@@ -100,3 +95,9 @@ section {
 article:hover {
     transform: scale(1.05);
 }
+p{
+    color:black}
+h2{
+    color: #fce6a4;
+}
+    
